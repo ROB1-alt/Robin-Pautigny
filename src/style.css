@@ -16,6 +16,7 @@ ul{
 }
 a{
     text-decoration: none;
+    color: #000000;
     
 }
 ul li:hover{
@@ -75,6 +76,13 @@ nav ul li{
 .active{
     font-weight: bold;
     color: #2d2a2a;
+}
+
+.my-life{
+    display: flex;
+    text-align: center;
+    margin-top: 800px;
+    margin-right: 600px;
 }
 .text-container p:nth-child(1){
     font-weight: bold;
@@ -487,6 +495,8 @@ footer p:nth-child(1){
         align-items: center;
         z-index: 1;
         display: none;
+        text-decoration: none;
+        color: #000000;
     }
     nav ul li{
         padding: 10px;
