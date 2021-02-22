@@ -1,6 +1,10 @@
 const openModalButton = document.querySelectorAll('[data-modal-target]')
 const closeModalButton = document.querySelectorAll('[data-close-btn]')
 const overlay = document.getElementById('overlay')
+const mainMenu = document.querySelector('.mainMenu');
+const closeMenu = document.querySelector('.closeMenu');
+const openMenu = document.querySelector('.openMenu');
+
 
 openModalButton.forEach(button =>{
     button.addEventListener('click', () =>{
@@ -33,4 +37,19 @@ function closeModal(modal){
     overlay.classList.remove('active')
 }
 
+
+
+
+
+
+openMenu.addEventListener('click',show);
+closeMenu.addEventListener('click',close);
+
+function show(){
+    mainMenu.style.display = 'flex';
+    mainMenu.style.top = '0';
+}
+function close(){
+    mainMenu.style.top = '-100%';
+}
 

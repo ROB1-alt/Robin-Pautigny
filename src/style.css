@@ -10,6 +10,13 @@ body{
     padding: 0px;
     
 }
+
+.fa-bars{
+    visibility: hidden;
+}
+.fa-times{
+    visibility: hidden;
+}
 ul{
     list-style: none;
     text-decoration: none;
@@ -155,8 +162,6 @@ button:active{
     align-items: center;
 }
 .abotimg{
-    width: 200px;
-    height: 311px;
 }
 .about-text{
     width: 550px;
@@ -454,6 +459,7 @@ footer p:nth-child(1){
         height: 35px;
         width: 160px;
     }
+
 }
 
 /*responsive for small devices*/
@@ -542,7 +548,40 @@ footer p:nth-child(1){
     p.copyright{
         font-size: 12px;
     }
+    nav .mainMenu {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        transition: top 1s ease;
+        display: none;
+    }
+    nav .mainMenu .closeMenu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
 
-
+    }
+    nav .openMenu {
+        display: block;
+    }
+    nav .mainMenu li a:hover {
+        background: none;
+        color: rgb(255, 123, 0);
+        font-size: 1.6rem;
+    }
+    .fa-bars{
+        visibility: initial;
+    }
+    .fa-times{
+        visibility:initial;
+    }
 }
 
