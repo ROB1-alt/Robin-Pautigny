@@ -560,7 +560,7 @@ footer p:nth-child(1){
         align-items: center;
         background: #000;
         transition: top 1s ease;
-        display: none;
+        display: flex;
     }
     nav .mainMenu .closeMenu {
         display: block;
