@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
     <title>Projects</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -12,12 +12,15 @@
 <body>
     <nav>
         <a href="/" class="logo">Chef de Projet</a>
-        <ul>
-            <li><a href="../index.html" class="active">Home</a></li>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+            <li><a href="./" class="active">Home</a></li>
             <li><a href="./src/about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="./src/project.html" target="blank">Projects</a></li>
+            <li><a href="./src/contact.html">Contact</a></li>
+            <li><a href="./src/project.html">Projects</a></li>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
         </ul>
+    </nav>
         <div class="toggle"></div>
     </nav>
 </body>
