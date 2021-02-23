@@ -11,6 +11,9 @@ body{
     
 }
 
+button{
+    cursor: pointer;
+}
 .fa-bars{
     visibility: hidden;
 }
@@ -303,7 +306,7 @@ footer p:nth-child(1){
 }
 .social-icons a:hover,
 .a-social-b a:hover{
-    background-color: #535c68;
+    background-color: #ffffff;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     transition: all ease 0.5s;
 }
@@ -347,6 +350,7 @@ footer p:nth-child(1){
     background-color: white;
     width: 500px;
     max-width: 80%;  
+    cursor: pointer;
 }
 .modal.active{
     transform: translate(-50%,-50%) scale(1);
@@ -568,8 +572,9 @@ footer p:nth-child(1){
     }
     nav .mainMenu li a:hover {
         background: none;
-        color: rgb(255, 123, 0);
+        color: #ffffff;
         font-size: 1.6rem;
+        opacity: 1;
     }
     .fa-bars{
         visibility: initial;
