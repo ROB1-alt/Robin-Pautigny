@@ -37,11 +37,6 @@ function closeModal(modal){
     overlay.classList.remove('active')
 }
 
-
-
-
-
-
 openMenu.addEventListener('click',show);
 closeMenu.addEventListener('click',close);
 
