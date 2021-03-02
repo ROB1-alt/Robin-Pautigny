@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     <link rel="icon" href="./src/img/fav-icon.png" />
 
 
@@ -32,16 +33,13 @@
             <p>Je suis Robin</p>
             <p> Je suis Chef de Projet & Webmarketeur</p>
             <a href="contact.html"><button class="hire-btn">Hire me</button></a>
-            <button data-modal-target="#modal" class="down-cv">Show CV</button>
-            <canvas id="my-canva"></canvas>
         </div>
         <img src="" class="model" alt="">
     </section>
     <div class="modal" id="modal">
         <div class="modal-header">
             <div class="title">About My CV</div>
-            <embed src="./src/cv.pdf" alt="">
-            <button data-close-btn class="close-btn">&times;</button>
+            <embed alt="">
         </div>
     </div>
     <div id="overlay"></div>
@@ -53,7 +51,10 @@
             <p>Je suis Robin Pautigny, je suis en 2ème année du programme grande école de <a class="hetic" href="https://www.hetic.net/" target="blank">HETIC</a>.
                 J'apprends dans ce cursus la pluridisciplinarité, j'ai appris à travailler sur un grand nombre de logiciels.
             </p>
-            <button data-modal-target="#modal">Download CV</button>
+            <div>
+                <button data-modal-target="#modal">Download CV</button>
+                <a href="./src/img/fav-icon.png" download></a>
+            </div>
         </div>
     </div>
     <div class="contact-me">
@@ -77,9 +78,12 @@
     <script type="text/javascript" src="./src/main.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.6.347/build/pdf.min.js"></script>
     <script>
-        pdfjsLib.getDocument('./cv.pdf').then(doc => {
-    console.log("This file has " + doc._pdfInfo.numPages + " pages")
-})
+                (document).ready(function () {
+                    $('.toggle').click(function () {
+                        $('.toggle').toggleClass('active')
+                        $('nav').toggleClass('active')
+                    })
+                })
     </script>
 </body>
 
