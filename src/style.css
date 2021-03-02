@@ -296,6 +296,19 @@ footer p:nth-child(1){
     text-align: center;
 }
 
+.dev-projects{
+    width: 80%;
+    height: 360px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin: -7% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .social-icons a{
     width: 40px;
     height: 40px;

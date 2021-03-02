@@ -1,0 +1,22 @@
+*{    
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*SETUP OF THE COLORS*/
+:root{
+    --main-white : #ffffff;
+    --hetic-color : #26E8A0;
+    --main-black : #000000;
+    --background : #f6f5f6;
+    --light-grey : #505050;
+}
+body{
+    background-color: var(--background);
+    margin: 0px;
+    padding: 0px;
+    
+}
