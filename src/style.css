@@ -475,13 +475,12 @@ footer p:nth-child(1){
         border-radius: 10px;
     }
     .about-container img{
-        height: 300px;
     }
     .about-text{
         width: 400px;
     }
     .about-text p:nth-child(1){
-        font-size: 20px;
+        font-size: 14px;
     }
     .about-text p:nth-child(2){
         font-size: 10px;
@@ -666,6 +665,13 @@ footer p:nth-child(1){
         position: fixed;
         right: 25px;
         line-height: 0px;
+    }
+    .dl-text{
+        font-size: 8px;
+    }
+    .about-img{
+        width: 20%;
+        height: 90%;
     }
 }
 
