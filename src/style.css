@@ -1,5 +1,4 @@
-
-
+/* set the scroll of my page */
 html{
     scroll-behavior: smooth;
 }
@@ -262,7 +261,10 @@ nav ul li{
     outline: none;
     border-radius: 7px;
 }
-
+.about-img{
+    width: 20%;
+    height: 90%;
+}
 .dl-text{
     color: white;
     font-size: 11px;
