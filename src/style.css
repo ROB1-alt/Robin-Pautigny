@@ -1,6 +1,7 @@
 /* set the scroll of my page */
 html{
     scroll-behavior: smooth;
+    font-family: 'Poppins';
 }
 
 /*SETUP OF THE COLORS*/
