@@ -536,7 +536,9 @@ footer p:nth-child(1){
         padding-left: 12%;
     }
 
-    
+    .about-text{
+        color: var(--main-white);
+    }
     .model{
         display: flex;
     }
@@ -671,6 +673,21 @@ footer p:nth-child(1){
     }
     .about-img{
         width: 20%;
+        height: 90%;
+    }
+}
+
+@media (max-width:960px){
+    
+    .about-img{
+        width: 30%;
+        height: 90%;
+    }
+}
+
+@media (max-width:984px){
+    .about-img{
+        width: 30%;
         height: 90%;
     }
 }
