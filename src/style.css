@@ -303,6 +303,10 @@ nav ul li{
     opacity: 0.6;
     transition: 0.6s;
 }
+.build-orange{
+    width: 320px;
+    height: 360px;
+}
 footer{
     background-color: #212121;
     height: 300px;
@@ -674,6 +678,13 @@ footer p:nth-child(1){
     .about-img{
         width: 20%;
         height: 90%;
+    }
+    .build-orange{
+        width: 30%;
+        height: 60%;
+    }
+    .dev-projects{
+        font-weight: bold;
     }
 }
 
