@@ -535,7 +535,9 @@ footer p:nth-child(1){
         background-image: none;
         background-color: #f7f7f7;
     }
-
+    .build-orange{
+        height: 60%;
+    }
     .title{
         display: flex;
         align-items: center;
@@ -688,7 +690,6 @@ footer p:nth-child(1){
         height: 90%;
     }
     .build-orange{
-        width: 30%;
         height: 60%;
     }
     .dev-projects{
