@@ -459,6 +459,12 @@ footer p:nth-child(1){
 
 
 /*Responsive design of my website*/
+@media(max-width:1400px){
+    .about-img{
+        width: 20%;
+        height: 90%;
+    }
+}
 @media(max-width:1000px){
     *{
         box-sizing: border-box;
@@ -478,7 +484,9 @@ footer p:nth-child(1){
         width: 90%;
         border-radius: 10px;
     }
-    .about-container img{
+    .about-img{
+        width: 30%;
+        height: 90%;
     }
     .about-text{
         width: 400px;

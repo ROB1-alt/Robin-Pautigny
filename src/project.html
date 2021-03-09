@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./img/favicon-chemistry.png" />
 </head>
 <body>
     <nav>
@@ -16,7 +17,7 @@
         <div class="openMenu"><i class="fa fa-bars"></i></div>
         <ul class="mainMenu">
             <li><a href="../index.html" class="active">Home</a></li>
-            <li><a href="./src/about.html">About</a></li>
+            <li><a href="./me.html">About</a></li>
             <li><a href="./contact.html">Contact</a></li>
             <li><a href="./project.html">Projects</a></li>
             <div class="closeMenu"><i class="fa fa-times"></i></div>
@@ -29,31 +30,39 @@
                 <p>
                     Cette page est en construction et sera bientôt disponible ! 
                 </p>
-                <img class="build-orange"src="./img/grue.png" alt="">
+                <img class="build-orange"src="./img/grue.png" alt="build">
             </div>
         </section>
-    <footer>
-        <p>Chef de projet & Webmarketing Junior</p>
-        <div class="social-icons">
-            <a href="https://www.facebook.com/robin.pautigny.35/" target="blank"><i
-                    class="fab fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/robin.pty/" target="blank"><i
-                    class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/robin-pautigny/" target="blank"><i
-                    class="fab fa-linkedin"></i></a>
-
-
-        </div>
-            <p class="copyright">Robin &copy;Pautigny &trade;</p>
-    </footer>
-    <script type="text/javascript" src="./src/main.js" defer></script>
-    <script>
-        (document).ready(function () {
-            $('.toggle').click(function () {
-                $('.toggle').toggleClass('active')
-                $('nav').toggleClass('active')
-            })
-        })
-</script>
 </body>
+<footer>
+    <p>Chef de projet & Webmarketing Junior</p>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/robin.pautigny.35/" target="blank"><i
+                class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/robin.pty/" target="blank"><i
+                class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/robin-pautigny/" target="blank"><i
+                class="fab fa-linkedin"></i></a>
+
+
+    </div>
+        <p class="copyright">Robin &copy;Pautigny &trade;</p>
+</footer>
+
+<script type="text/javascript" src="./src/main.js" defer></script>
+<script>
+            (document).ready(function () {
+                $('.toggle').click(function () {
+                    $('.toggle').toggleClass('active')
+                    $('nav').toggleClass('active')
+                })
+            })
+</script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-JCY6XG3RXQ');
+  </script>
 </html>
